@@ -1,0 +1,47 @@
+*{
+    margin: 1;
+}
+
+#titulo{
+    margin-top: 10%;
+    display: flex;
+    color: white;
+    font-family: 'Tangerine', serif;
+	font-size: 72px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.geral{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+button {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    border: 1;
+    cursor: pointer;
+    border-radius: 25%;
+}
+button:hover {
+    background-color: white;
+    color: gray;
+}
