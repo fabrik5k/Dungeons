@@ -3,5 +3,8 @@
 }
 
 .pixelMapa{
-    background-color: white
+}
+body{
+    color: rgb(149, 149, 149);
+    background-color: black;
 }

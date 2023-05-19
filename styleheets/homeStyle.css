@@ -1,15 +1,15 @@
 *{
-    margin: 1;
+    margin: 0;
 }
 
 #titulo{
-    margin-top: 10%;
     display: flex;
     color: white;
-    font-family: 'Tangerine', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 72px;
 	text-align: center;
 	margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .geral{
@@ -22,25 +22,39 @@
 }
 
 .menu{
-    width: 75vw;
-    height: 75vh;
+    
+    width: 20vw;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 body {
-    background-color: black;
+    background-image: url(../componentes/masmorra.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 button {
-    background-color: gray;
-    color: white;
-    padding: 20px;
+    
+    background-color: rgb(149, 149, 149);
+    color: white;   
     border: 1;
     cursor: pointer;
-    border-radius: 25%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.first{
+    padding: 12px 24px;
+}
+
+.second{
+    padding: 12px 33px;
+}
+
 button:hover {
     background-color: white;
     color: gray;

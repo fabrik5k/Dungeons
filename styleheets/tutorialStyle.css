@@ -1,18 +1,24 @@
 p{
-    color: white;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
     font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    
 }
 
 body{
-    background-color: black;
+    background-image: url(../componentes/castelo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
 }
 
 button{
     background-color: gray;
     color: white;
-    padding: 15px;
+    padding: 14px 25px;
     border-radius: 10%;
     cursor: pointer;
+    margin-left: 50%;
 }
 
 button:hover {
