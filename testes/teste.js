@@ -1,9 +1,14 @@
 function teste(mn){
     this.mn = mn
+    if (mn == true) {
+        console.log(mn)
+    }
 }
 
-var mn = {l: 2, i: 4}
+isTrue = false
+x1 = new teste(isTrue)
+x2 = new teste(isTrue)
+x3 = new teste(isTrue)
+isTrue = true
+x1
 
-var gay = new teste(mn)
-aux = gay.mn
-console.log(aux.l)

@@ -1,0 +1,47 @@
+.container{
+    width: 560px;
+    height: 450px;
+    margin-top: 7%;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+body{
+    background-image: url(../componentes/dentro.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-size: 100%
+}
+
+button{
+    background-color: gray;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 10%;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+}
